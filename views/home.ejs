@@ -1,0 +1,36 @@
+
+<a href="/users">SHOW USERS</a>
+<br>
+<a href="/users/new">SIGNUP</a>
+
+<form action="/users/:id/user_delete" method="post">
+  <label for="exampleInputusername">Userdelete: </label>
+  <input type="text" name="deleteuser" id="exampleInputusername" placeholder="username">
+  <button type="submit" >Submit</button>
+</form>
+
+<form action="/users/:id/update_username" method="post">
+  <label for="exampleInputusername">Usertobeupdate: </label>
+  <input type="text" name="usertobeupdated" id="exampleInputusername" placeholder="username">
+  <label for="exampleInputusername">Userafterupdate: </label>
+  <input type="text" name="userafterupdate" id="exampleInputusername" placeholder="username">
+  <button type="submit" >Submit</button>
+</form>
+
+
+<form action="/users/:id/update_usermail" method="post">
+  <label for="exampleInputusername">Usertobeupdate: </label>
+  <input type="text" name="usertobeupdated" id="exampleInputusername" placeholder="usermail">
+  <label for="exampleInputusername">Userafterupdate: </label>
+  <input type="text" name="userafterupdate" id="exampleInputusername" placeholder="usermail">
+  <button type="submit" >Submit</button>
+</form>
+
+
+<form action="/users/:id/update_contact" method="post">
+  <label for="exampleInputusername">Usertobeupdate: </label>
+  <input type="text" name="usertobeupdated" id="exampleInputusername" placeholder="usercontact">
+  <label for="exampleInputusername">Userafterupdate: </label>
+  <input type="text" name="userafterupdate" id="exampleInputusername" placeholder="usercontact">
+  <button type="submit" >Submit</button>
+</form>
